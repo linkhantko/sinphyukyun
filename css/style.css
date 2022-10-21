@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 
 :root {
-    --warning: #00B98E;
+    --warning: #E87021;
     --light: #F3F6F8;
     --dark: #0E2E50;
 }
@@ -86,7 +86,7 @@
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: var(--dark);
     font-weight: 500;
     outline: none;
     transition: .5s;
@@ -94,7 +94,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: #FFFFFF;
+    color: var(--warning);
 }
 
 .sticky-top.navbar .navbar-nav .nav-link {
